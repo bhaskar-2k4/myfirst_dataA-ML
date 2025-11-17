@@ -1,9 +1,9 @@
-IRIS FLOWER CLASSIFICATION USING LOGISTIC REGRESSION (WITH DATA VISUALIZATION)
+**IRIS FLOWER CLASSIFICATION USING LOGISTIC REGRESSION (WITH DATA VISUALIZATION)**
 
 This project provides a clear, step-by-step demonstration of how to analyze the Iris Flower Dataset, visualize its patterns, and build a Logistic Regression model to classify iris species.
 It is designed to help beginners understand how data flows from loading → visualization → modeling → prediction.
 
-📂 Dataset Information
+**📂 Dataset Information**
 
 Source: Kaggle
 
@@ -11,7 +11,7 @@ Total Rows: 150
 
 Total Columns: 6
 
-Dataset Columns
+**Dataset Columns**
 
 Id
 
@@ -25,15 +25,16 @@ PetalWidthCm
 
 Species
 
-The dataset must be saved as:
+**The dataset must be saved as:**
 
 iris.csv
 
 
 Place it in the same folder as your Jupyter Notebook.
 
-🪜 Steps Performed in the Notebook
-1. Importing Required Libraries
+**🪜 Steps Performed in the Notebook**
+
+**1. Importing Required Libraries**
 
 The notebook uses:
 
@@ -43,13 +44,13 @@ matplotlib.pyplot → for graphs & visualizations
 
 LogisticRegression (sklearn) → for building the classification model
 
-2. Loading the Dataset
+**2. Loading the Dataset**
 iris_data = pd.read_csv("iris.csv")
 
 
 This loads the Kaggle dataset into a Pandas DataFrame.
 
-3. Viewing the Dataset
+**3. Viewing the Dataset**
 
 To quickly understand the data:
 
@@ -59,7 +60,7 @@ iris_data.tail() → shows the last 5 rows
 
 These help verify the dataset is correct and properly loaded.
 
-4. Dataset Summary
+**4. Dataset Summary**
 
 iris_data.info() → displays column types, non-null counts
 
@@ -67,11 +68,11 @@ iris_data.describe() → provides statistical summary (mean, min, max, std, etc.
 
 This confirms there are no missing values and shows how each feature behaves.
 
-📊 Data Visualization (Matplotlib)
+**📊 Data Visualization (Matplotlib)**
 
 Visualizing the dataset helps understand species differences and feature patterns.
 
-A) Scatter Plots
+**A) Scatter Plots**
 
 Used to show relationships between features for each iris species:
 
@@ -82,7 +83,7 @@ Petal Length vs Petal Width
 Each species is plotted separately using a loop.
 These scatter plots clearly show how species form distinct clusters.
 
-B) Histograms
+**B) Histograms**
 
 Histograms were plotted for all measurement columns:
 
@@ -102,7 +103,7 @@ Common vs rare ranges
 
 Variation in measurements
 
-C) Boxplots
+**C) Boxplots**
 
 Boxplots help identify:
 
@@ -116,7 +117,7 @@ Outliers (if any)
 
 A combined boxplot for all numeric columns was displayed.
 
-🧪 Preparing Data for Logistic Regression
+**🧪 Preparing Data for Logistic Regression**
 Feature Matrix (X):
 ['SepalLengthCm', 'SepalWidthCm', 'PetalLengthCm', 'PetalWidthCm']
 
@@ -126,7 +127,7 @@ Target Variable (y):
 
 These columns are used to train the model to predict the flower species.
 
-🤖 Building the Logistic Regression Model
+**🤖 Building the Logistic Regression Model**
 
 The model is created and trained using:
 
@@ -136,7 +137,7 @@ model.fit(X, y)
 
 Here, the model learns directly from the entire dataset.
 
-🔮 Making Predictions
+**🔮 Making Predictions**
 
 The notebook demonstrates:
 
@@ -146,7 +147,7 @@ Predicting species for a custom input sample created using a DataFrame
 
 This shows how to use the trained model for classification.
 
-🛠 Requirements
+**🛠 Requirements**
 
 The project uses the following Python libraries:
 
@@ -162,7 +163,7 @@ Install everything using:
 
 pip install -r requirements.txt
 
-🚀 How to Run the Project
+**🚀 How to Run the Project**
 
 Download:
 
@@ -178,8 +179,10 @@ Open Jupyter Notebook
 
 Run all cells in order
 
-👤 Author
+**👤 Author**
 
-Name: Bhaskar
-Dataset: Kaggle – Iris Flower Dataset
-Project: Iris Flower Classification with Visualization using Logistic Regression
+**Name:** Bhaskar
+
+**Dataset:** Kaggle – Iris Flower Dataset
+
+**Project:** Iris Flower Classification with Visualization using Logistic Regression
