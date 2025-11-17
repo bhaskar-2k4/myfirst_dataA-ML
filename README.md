@@ -1,7 +1,11 @@
 **IRIS FLOWER CLASSIFICATION USING LOGISTIC REGRESSION (WITH DATA VISUALIZATION)**
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 This project provides a clear, step-by-step demonstration of how to analyze the Iris Flower Dataset, visualize its patterns, and build a Logistic Regression model to classify iris species.
 It is designed to help beginners understand how data flows from loading → visualization → modeling → prediction.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **📂 Dataset Information**
 
@@ -31,6 +35,8 @@ iris.csv
 
 
 Place it in the same folder as your Jupyter Notebook.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **🪜 Steps Performed in the Notebook**
 
@@ -67,6 +73,8 @@ iris_data.info() → displays column types, non-null counts
 iris_data.describe() → provides statistical summary (mean, min, max, std, etc.)
 
 This confirms there are no missing values and shows how each feature behaves.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **📊 Data Visualization (Matplotlib)**
 
@@ -117,6 +125,8 @@ Outliers (if any)
 
 A combined boxplot for all numeric columns was displayed.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 **🧪 Preparing Data for Logistic Regression**
 Feature Matrix (X):
 ['SepalLengthCm', 'SepalWidthCm', 'PetalLengthCm', 'PetalWidthCm']
@@ -146,6 +156,8 @@ Predicting species for the entire dataset (model.predict(X))
 Predicting species for a custom input sample created using a DataFrame
 
 This shows how to use the trained model for classification.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **🛠 Requirements**
 
@@ -179,6 +191,8 @@ Open Jupyter Notebook
 
 Run all cells in order
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 **👤 Author**
 
 **Name:** Bhaskar
@@ -186,4 +200,5 @@ Run all cells in order
 **Dataset:** Kaggle – Iris Flower Dataset
 
 **Project:** Iris Flower Classification with Visualization using Logistic Regression
+
 
